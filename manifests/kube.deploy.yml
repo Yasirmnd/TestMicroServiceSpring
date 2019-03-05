@@ -33,7 +33,7 @@ spec:
         image: testmicroservicespring:latest
         readinessProbe:
           httpGet:
-            path: /health
+            path: /
             port: 8080
           initialDelaySeconds: 20
         # resources:
